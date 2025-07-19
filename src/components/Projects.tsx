@@ -9,6 +9,7 @@ const Projects = () => {
       title: "Quiz Master - Web Application",
       description: "Full-stack Flask web application with comprehensive admin dashboard, user management, and quiz tracking system.",
       icon: Github,
+      icon : Linkedin,
       color: "text-primary",
       features: [
         "Backend & ORM: Developed using Flask with SQLAlchemy ORM on SQLite, managing users, quizzes, and score records through relational models.",
@@ -31,8 +32,8 @@ const Projects = () => {
         "Inventory Optimization: Used ABC analysis and correlation heatmaps to prioritize high-performing SKUs and design cross-selling strategies."
       ],
       technologies: ["Python", "Pandas", "Statsmodels", "Matplotlib", "Linear Regression", "ABC Analysis"],
-      githubUrl: "#",
-      liveUrl: "https://repo-sumit.github.io/BDM_Project/",
+      githubUrl: "https://repo-sumit.github.io/BDM_Project/",
+      liveUrl: "",
       category: "Data Analytics"
     }
   ];
