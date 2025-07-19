@@ -46,7 +46,7 @@ const Projects = () => {
     },
     {
       name: "Google Analytics Certification",
-      issuer: "Google",
+      issuer: "Google Analaytics 4",
       credentialUrl: "https://skillshop.credential.net/5c0521af-78b2-4270-a610-7671c53db187#acc.EUBRxkK3"
     },
     {
@@ -60,9 +60,19 @@ const Projects = () => {
       credentialUrl: "https://www.hackerrank.com/certificates/iframe/69f1e469c210"
     },
     {
+      name: "SQL (Advance)",
+      issuer: "HackerRank",
+      credentialUrl: "https://www.hackerrank.com/certificates/48cc3cf310a8d"
+    },
+    {
       name: "SQL (Intermediate)",
       issuer: "HackerRank",
       credentialUrl: "https://www.hackerrank.com/certificates/e106d6175bbd"
+    },
+    {
+      name: "SQL (Basic)",
+      issuer: "HackerRank",
+      credentialUrl: "https://www.hackerrank.com/certificates/40a166053c4e"
     }
   ];
 
