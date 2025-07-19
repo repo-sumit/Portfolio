@@ -42,40 +42,73 @@ const Projects = () => {
     {
       name: "API Fundamentals Student Expert",
       issuer: "Postman",
-      credentialUrl: "https://badgr.com/public/assertions/PwUrdjzmQ8y6KSZVCS1YNA?identity__email=chingaarisharma@gmail.com"
+      credentialUrl: "https://badgr.com/public/assertions/PwUrdjzmQ8y6KSZVCS1YNA?identity__email=chingaarisharma@gmail.com",
+      imageUrl: "https://your-image-host.com/certificate1.jpg",
+
     },
     {
       name: "Google Analytics Certification",
       issuer: "Google Analaytics 4",
-      credentialUrl: "https://skillshop.credential.net/5c0521af-78b2-4270-a610-7671c53db187#acc.EUBRxkK3"
+      credentialUrl: "https://skillshop.credential.net/5c0521af-78b2-4270-a610-7671c53db187#acc.EUBRxkK3",
+      imageUrl: "https://your-image-host.com/certificate1.jpg",
+
     },
     {
       name: "Product Experimentation Micro-Certification",
       issuer: "Product School",
-      credentialUrl: "#"
+      credentialUrl: "#",
+      imageUrl: "https://your-image-host.com/certificate1.jpg",
+
     },
     {
       name: "Python (Basic)",
       issuer: "HackerRank",
-      credentialUrl: "https://www.hackerrank.com/certificates/iframe/69f1e469c210"
+      credentialUrl: "https://www.hackerrank.com/certificates/iframe/69f1e469c210",
+      imageUrl: "https://your-image-host.com/certificate1.jpg",
+
     },
     {
       name: "SQL (Advance)",
       issuer: "HackerRank",
-      credentialUrl: "https://www.hackerrank.com/certificates/48cc3cf310a8d"
+      credentialUrl: "https://www.hackerrank.com/certificates/48cc3cf310a8d",
+      imageUrl: "https://i.ibb.co/PZ6zytbq/SQL-Adv.png",
+
     },
     {
       name: "SQL (Intermediate)",
       issuer: "HackerRank",
-      credentialUrl: "https://www.hackerrank.com/certificates/e106d6175bbd"
+      credentialUrl: "https://www.hackerrank.com/certificates/e106d6175bbd",
+      imageUrl: "https://your-image-host.com/certificate1.jpg",
+
     },
     {
       name: "SQL (Basic)",
       issuer: "HackerRank",
-      credentialUrl: "https://www.hackerrank.com/certificates/40a166053c4e"
+      credentialUrl: "https://www.hackerrank.com/certificates/40a166053c4e",
+      imageUrl: "https://your-image-host.com/certificate1.jpg",
+
     }
   ];
-
+  export default function CertificatesSection() {
+  return (
+    <div className="certificates-section">
+      {certificates.map((cert, idx) => (
+        <div key={idx} className="certificate-item">
+          <h3>{cert.title}</h3>
+          <p>{cert.description}</p>
+          {/* Certificate image below each certificate */}
+          <img
+            src={cert.imageUrl}
+            alt={`${cert.title} Image`}
+            width={1920}
+            height={1080}
+            style={{ maxWidth: "100%", height: "auto" }}
+          />
+        </div>
+      ))}
+    </div>
+  );
+}
   return (
     <section id="projects" className="py-20 bg-background">
       <div className="container mx-auto px-6">
