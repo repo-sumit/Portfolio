@@ -55,7 +55,7 @@ const Navigation = () => {
             >
               <div className="w-10 h-10 rounded-full bg-gradient-to-r from-primary to-accent p-0.5">
                 <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-                <img src="https://i.ibb.co/zTR6jtYX/Whats-App-Image-2025-07-19-at-13-25-00-df61ada6-removebg-preview.png"/>
+                <img src="https://i.ibb.co/Tz0g19T/Whats-App-Image-2025-07-19-at-13-24-59-28461875-removebg-preview.png"/>
                 </div>
               </div>
               <div className="hidden sm:block">
