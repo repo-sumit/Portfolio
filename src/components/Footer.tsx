@@ -11,29 +11,7 @@ const Footer = () => {
           
           {/* Main Footer Content */}
           <div className="grid md:grid-cols-3 gap-8 mb-8">
-            
-            {/* Brand Section */}
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-r from-primary to-accent p-0.5">
-                  <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-                    <span className="text-sm font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                      SK
-                    </span>
-                  </div>
-                </div>
-                <span className="font-semibold text-foreground">Sumit Kumar</span>
-              </div>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Product Associate building AI-powered educational platforms. 
-                Data Science student at IIT Madras passionate about creating user-centric solutions.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <Badge variant="outline" className="text-xs">Product Management</Badge>
-                <Badge variant="outline" className="text-xs">Data Science</Badge>
-                <Badge variant="outline" className="text-xs">AI/ML</Badge>
-              </div>
-            </div>
+        
 
             {/* Quick Links */}
             <div className="space-y-4">
