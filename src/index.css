@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 240 5% 6%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 210 100% 60%;
+    --primary: 198 93% 60%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 240 4.9% 11%;
@@ -26,8 +26,8 @@ All colors MUST be HSL.
     --muted: 240 4.9% 11%;
     --muted-foreground: 240 5% 64.9%;
 
-    --accent: 25 95% 53%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 186 100% 75%;
+    --accent-foreground: 240 10% 3.9%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
@@ -40,11 +40,11 @@ All colors MUST be HSL.
 
     /* Custom design tokens */
     --hero-gradient: linear-gradient(135deg, hsl(240 10% 3.9%), hsl(240 5% 6%));
-    --primary-gradient: linear-gradient(135deg, hsl(210 100% 60%), hsl(210 100% 70%));
-    --accent-gradient: linear-gradient(135deg, hsl(25 95% 53%), hsl(25 95% 63%));
+    --primary-gradient: linear-gradient(135deg, hsl(198 93% 60%), hsl(186 100% 75%));
+    --accent-gradient: linear-gradient(135deg, hsl(186 100% 75%), hsl(198 93% 85%));
     --glass-bg: hsla(240, 10%, 8%, 0.8);
-    --glow-primary: 0 0 20px hsla(210, 100%, 60%, 0.3);
-    --glow-accent: 0 0 20px hsla(25, 95%, 53%, 0.3);
+    --glow-primary: 0 0 20px hsla(198, 93%, 60%, 0.3);
+    --glow-accent: 0 0 20px hsla(186, 100%, 75%, 0.3);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
@@ -74,7 +74,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
 
-    --primary: 210 100% 50%;
+    --primary: 198 93% 50%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 210 40% 96%;
@@ -83,8 +83,8 @@ All colors MUST be HSL.
     --muted: 210 40% 96%;
     --muted-foreground: 240 4% 46%;
 
-    --accent: 25 95% 53%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 186 100% 65%;
+    --accent-foreground: 240 10% 3.9%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
@@ -96,8 +96,8 @@ All colors MUST be HSL.
     /* Light mode custom tokens */
     --hero-gradient: linear-gradient(135deg, hsl(210 40% 98%), hsl(210 40% 96%));
     --glass-bg: hsla(0, 0%, 100%, 0.9);
-    --glow-primary: 0 0 20px hsla(210, 100%, 50%, 0.2);
-    --glow-accent: 0 0 20px hsla(25, 95%, 53%, 0.2);
+    --glow-primary: 0 0 20px hsla(198, 93%, 50%, 0.2);
+    --glow-accent: 0 0 20px hsla(186, 100%, 65%, 0.2);
   }
 }
 

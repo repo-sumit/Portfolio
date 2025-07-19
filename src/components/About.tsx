@@ -60,54 +60,51 @@ const About = () => {
             </p>
           </div>
 
-          {/* Bio */}
+          {/* Highlights Grid */}
           <div className="mb-16">
-            <Card className="bg-card/50 backdrop-blur-sm border-border/50">
-              <CardContent className="p-8">
-                <div className="grid md:grid-cols-2 gap-8 items-center">
-                  <div>
-                    <h3 className="text-2xl font-semibold mb-4 text-foreground">
-                      Product Manager & Data Science Student
-                    </h3>
-                    <p className="text-foreground/80 leading-relaxed mb-4">
-                      Currently pursuing B.S. in Data Science from IIT Madras while working as a Product Associate 
-                      at ConveGenius.AI, where I collaborate with government partnerships and build AI-powered 
-                      educational solutions.
-                    </p>
-                    <p className="text-foreground/80 leading-relaxed">
-                      As the Founder & Product Owner of AceGrade, I successfully scaled the platform to over 
-                      100K users, implementing data-driven strategies that resulted in significant growth in 
-                      user retention and engagement.
-                    </p>
-                  </div>
-                  <div className="grid grid-cols-2 gap-4">
-                    {highlights.map((highlight, index) => (
-                      <div key={index} className="text-center p-4 rounded-lg bg-background/30">
-                        <highlight.icon className="w-8 h-8 mx-auto mb-2 text-primary" />
-                        <h4 className="font-semibold text-sm text-foreground">{highlight.title}</h4>
-                        <p className="text-xs text-muted-foreground mt-1">{highlight.description}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+              {highlights.map((highlight, index) => (
+                <Card key={index} className="group hover:shadow-glow-primary/20 transition-all duration-300 bg-gradient-to-br from-card/80 to-card/40 backdrop-blur-sm border-border/50 hover:border-primary/30">
+                  <CardContent className="p-6 text-center">
+                    <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <highlight.icon className="w-8 h-8 text-primary" />
+                    </div>
+                    <h4 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">{highlight.title}</h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{highlight.description}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </div>
 
           {/* Skills */}
           <div>
-            <h3 className="text-2xl font-semibold mb-8 text-center text-foreground">Skills & Expertise</h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <h3 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              Skills & Expertise
+            </h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               {Object.entries(skills).map(([category, skillList], index) => (
-                <Card key={index} className="bg-card/30 backdrop-blur-sm border-border/50 hover:bg-card/40 transition-all duration-300">
-                  <CardContent className="p-6">
-                    <h4 className="font-semibold mb-4 text-foreground text-center">{category}</h4>
-                    <div className="flex flex-wrap gap-2">
+                <Card key={index} className="group relative overflow-hidden bg-gradient-to-br from-card/90 to-card/60 backdrop-blur-sm border-border/50 hover:border-primary/40 transition-all duration-500 hover:shadow-glow-primary/30">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <CardContent className="relative p-8">
+                    <div className="text-center mb-6">
+                      <div className="w-12 h-12 mx-auto mb-4 rounded-xl bg-gradient-to-br from-primary to-accent p-0.5">
+                        <div className="w-full h-full rounded-xl bg-background flex items-center justify-center">
+                          <span className="text-lg font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                            {category.charAt(0)}
+                          </span>
+                        </div>
+                      </div>
+                      <h4 className="font-bold text-lg text-foreground group-hover:text-primary transition-colors duration-300">
+                        {category}
+                      </h4>
+                    </div>
+                    <div className="flex flex-wrap gap-2 justify-center">
                       {skillList.map((skill, skillIndex) => (
                         <Badge 
                           key={skillIndex} 
                           variant="secondary" 
-                          className="text-xs bg-background/40 text-foreground/80 hover:bg-primary hover:text-primary-foreground transition-all duration-200"
+                          className="text-xs px-3 py-1 bg-background/60 text-foreground/90 border border-border/50 hover:bg-gradient-to-r hover:from-primary/20 hover:to-accent/20 hover:border-primary/50 hover:text-primary transition-all duration-300 hover:scale-105"
                         >
                           {skill}
                         </Badge>
