@@ -36,12 +36,6 @@ const Experience = () => {
     }
   ];
 
-  const education = {
-    institution: "Indian Institute of Technology Madras",
-    degree: "Bachelor of Science, Data Science",
-    period: "2022 - 2026",
-    status: "Current"
-  };
 
   const leadership = [
     {
@@ -69,7 +63,7 @@ const Experience = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Experience & Education
+              Experience
             </h2>
             <p className="text-lg text-muted-foreground">
               Building products that scale and creating meaningful impact
@@ -131,29 +125,6 @@ const Experience = () => {
             </div>
           </div>
 
-          {/* Education */}
-          <div className="mb-16">
-            <h3 className="text-2xl font-semibold mb-8 text-foreground">Education</h3>
-            <Card className="bg-card/50 backdrop-blur-sm border-border/50">
-              <CardContent className="p-8">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                  <div>
-                    <h4 className="text-xl font-semibold text-foreground">{education.institution}</h4>
-                    <p className="text-primary font-medium">{education.degree}</p>
-                  </div>
-                  <div className="flex gap-2">
-                    <Badge variant="outline" className="bg-background/50">
-                      <CalendarDays className="w-3 h-3 mr-1" />
-                      {education.period}
-                    </Badge>
-                    <Badge variant="default" className="bg-accent">
-                      {education.status}
-                    </Badge>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
 
           {/* Leadership */}
           <div>
