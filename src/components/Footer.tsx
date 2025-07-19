@@ -20,6 +20,21 @@ const Footer = () => {
                     <span className="text-sm font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                       SK
                     </span>
+                  </div>
+                </div>
+                <span className="font-semibold text-foreground">Sumit Kumar</span>
+              </div>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                Product Associate building AI-powered educational platforms. 
+                Data Science student at IIT Madras passionate about creating user-centric solutions.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="outline" className="text-xs">Product Management</Badge>
+                <Badge variant="outline" className="text-xs">Data Science</Badge>
+                <Badge variant="outline" className="text-xs">AI/ML</Badge>
+              </div>
+            </div>
+
             {/* Quick Links */}
             <div className="space-y-4">
               <h3 className="font-semibold text-foreground">Quick Links</h3>
