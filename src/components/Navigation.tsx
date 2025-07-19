@@ -76,29 +76,6 @@ const Navigation = () => {
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
                 </button>
               ))}
-              
-              {/* Social Icons */}
-              <div className="flex items-center space-x-3 pl-4 border-l border-border/50">
-                <a 
-                  href="https://github.com/repo-sumit" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-foreground/70 hover:text-primary transition-colors hover:scale-110 transform"
-                >
-                  <Github className="w-5 h-5" />
-                </a>
-                <a 
-                  href="https://www.linkedin.com/in/in-sumit" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-foreground/70 hover:text-primary transition-colors hover:scale-110 transform"
-                >
-                  <Linkedin className="w-5 h-5" />
-                </a>
-                <Button variant="hero" size="sm" onClick={() => scrollToSection('#contact')}>
-                  <Mail className="w-4 h-4 mr-1" />
-                  Contact
-                </Button>
               </div>
             </div>
 
@@ -128,34 +105,6 @@ const Navigation = () => {
                     {item.label}
                   </button>
                 ))}
-                
-                <div className="flex items-center space-x-4 pt-4 border-t border-border/50">
-                  <a 
-                    href="https://github.com/repo-sumit" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-foreground/70 hover:text-primary transition-colors"
-                  >
-                    <Github className="w-5 h-5" />
-                  </a>
-                  <a 
-                    href="https://www.linkedin.com/in/in-sumit" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-foreground/70 hover:text-primary transition-colors"
-                  >
-                    <Linkedin className="w-5 h-5" />
-                  </a>
-                  <Button 
-                    variant="hero" 
-                    size="sm" 
-                    onClick={() => scrollToSection('#contact')}
-                    className="ml-auto"
-                  >
-                    <Mail className="w-4 h-4 mr-1" />
-                    Contact
-                  </Button>
-                </div>
               </div>
             </div>
           </div>
