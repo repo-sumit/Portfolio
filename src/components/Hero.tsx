@@ -8,11 +8,11 @@ const Hero = () => {
       {/* Background decoration */}
       <div className="absolute inset-0 bg-background/10 opacity-20"></div>
       
-      <div className="container mx-auto px-6 text-center relative z-10">
+      <div className="container mx-auto  mt-3 px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto space-y-8">
           
           {/* Profile Image */}
-          <div className="relative inline-block mt-3">
+          <div className="relative inline-block ">
             <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-primary to-accent p-1">
               <div className="w-full h-full rounded-full bg-background flex items-center justify-center text-4xl font-bold bg-primary-gradient bg-clip-text text-transparent">
                 <img src="https://i.ibb.co/RGq2RyKL/Chat-GPT-Image-Jun-30-2025-06-00-37-PM-removebg-preview.png" alt="img logo"/>
