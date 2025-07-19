@@ -10,13 +10,13 @@ const Experience = () => {
       location: "Gandhinagar, Gujarat",
       period: "Sept 2024 - Present",
       type: "Full-time",
- //     highlights: [
-//        "Stakeholder Collaboration: Partnered with Gujarat Education Department, GCERT, COS, and NGOs like Wadhwani.AI and Quest Alliance to gather requirements and deliver tailored solutions.",
-//        "Product Development: Contributed to AI-driven educational platforms (ORF, IPMS, CAL, GSQAC), impacting 20M+ registered users and 2.3M+ DAUs.",
-//        "Wireframing & UX Design: Designed wireframes, dashboards, and flows using V0, Whimsical, Mokkup.ai, and Figma, reducing design cycles by 32% and improving stakeholder alignment.",
-//        "Gen AI Integration: Leveraged tools like ChatGPT, Perplexity, Julius, and Google AI Studio for analysis, prototype generation, and web design.",
-//        "Cross-Functional Ownership: Managed SDLC, sprint execution, and feature rollout across teams using JIRA, improving velocity and release efficiency."
-//      ],
+      highlights: [
+        "Stakeholder Collaboration: Partnered with Gujarat Education Department, GCERT, COS, and NGOs like Wadhwani.AI and Quest Alliance to gather requirements and deliver tailored solutions.",
+        "Product Development: Contributed to AI-driven educational platforms (ORF, IPMS, CAL, GSQAC), impacting 20M+ registered users and 2.3M+ DAUs.",
+        "Wireframing & UX Design: Designed wireframes, dashboards, and flows using V0, Whimsical, Mokkup.ai, and Figma, reducing design cycles by 32% and improving stakeholder alignment.",
+        "Gen AI Integration: Leveraged tools like ChatGPT, Perplexity, Julius, and Google AI Studio for analysis, prototype generation, and web design.",
+        "Cross-Functional Ownership: Managed SDLC, sprint execution, and feature rollout across teams using JIRA, improving velocity and release efficiency."
+      ],
       skills: ["Product Strategy", "Stakeholder Management", "Wireframing", "AI Integration", "Agile"]
     },
     {
@@ -25,13 +25,13 @@ const Experience = () => {
       location: "Remote",
       period: "Sept 2023 - Sept 2024",
       type: "Founder",
- //     highlights: [
-//        "Team Leadership & Product Development: Led a cross-functional team of 6 to develop AceGrade from inception to launch(0-1), overseeing the entire Software Development Life Cycle (SDLC).",
-//        "Growth Strategy: Drove 72.27% direct search and 25.21% organic search traffic through WhatsApp, LinkedIn, Telegram, Instagram using strategic messaging.",
-//        "Data-Driven UX & Retention: Implemented continuous feedback loops via user interviews and analytics, enhancing feature for over 60K users. Iterative improvements led to a 64% increase in retention and 24% boost in engagement.",
-//        "Product Analytics & Iteration: Utilized Google Analytics to monitor product performance across various metrics, guiding data-informed iterations and feature enhancements.",
-//        "Product Lifecycle Management: Managed the complete product lifecycle, coordinating with diverse teams to ensure timely delivery and quality assurance."
-//      ],
+      highlights: [
+        "Team Leadership & Product Development: Led a cross-functional team of 6 to develop AceGrade from inception to launch(0-1), overseeing the entire Software Development Life Cycle (SDLC).",
+        "Growth Strategy: Drove 72.27% direct search and 25.21% organic search traffic through WhatsApp, LinkedIn, Telegram, Instagram using strategic messaging.",
+        "Data-Driven UX & Retention: Implemented continuous feedback loops via user interviews and analytics, enhancing feature for over 60K users. Iterative improvements led to a 64% increase in retention and 24% boost in engagement.",
+        "Product Analytics & Iteration: Utilized Google Analytics to monitor product performance across various metrics, guiding data-informed iterations and feature enhancements.",
+        "Product Lifecycle Management: Managed the complete product lifecycle, coordinating with diverse teams to ensure timely delivery and quality assurance."
+      ],
       skills: ["Team Leadership", "Growth Strategy", "User Research", "Product Analytics", "Lifecycle Management"]
     }
   ];
