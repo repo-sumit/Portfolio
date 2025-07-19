@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="relative inline-block ">
             <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-primary to-accent p-1">
               <div className="w-full h-full rounded-full bg-background flex items-center justify-center text-4xl font-bold bg-primary-gradient bg-clip-text text-transparent">
-                <img src="https://i.ibb.co/RGq2RyKL/Chat-GPT-Image-Jun-30-2025-06-00-37-PM-removebg-preview.png" alt="img logo"/>
+                <img src="https://i.ibb.co/zTR6jtYX/Whats-App-Image-2025-07-19-at-13-25-00-df61ada6-removebg-preview.png"/>
               </div>
             </div>
             <div className="absolute -bottom-2 -right-2">
