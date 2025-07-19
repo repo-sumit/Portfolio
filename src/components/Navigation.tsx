@@ -62,11 +62,8 @@ const Navigation = () => {
               </div>
               <div className="hidden sm:block">
                 <span className="font-semibold text-foreground group-hover:text-primary transition-colors">
-                  Sumit Kumar
+                  Sumit's Portfolio
                 </span>
-                <Badge variant="outline" className="ml-2 text-xs bg-background/50">
-                  Portfolio
-                </Badge>
               </div>
             </button>
 
